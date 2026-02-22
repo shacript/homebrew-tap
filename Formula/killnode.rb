@@ -1,25 +1,25 @@
 class Killnode < Formula
   desc "A fast, interactive TUI for finding and deleting node_modules directories"
   homepage "https://github.com/shacript/killnode"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/shacript/killnode/releases/download/v0.1.0/killnode-aarch64-apple-darwin.tar.xz"
-      sha256 "b2b276d781899a2c295bf08d18d66cd728df40651d5194a99665621a8afc4bd9"
+      url "https://github.com/shacript/killnode/releases/download/v0.1.1/killnode-aarch64-apple-darwin.tar.xz"
+      sha256 "509211b191a1ab39184a5a8efb453ea6dab4da0d7ab74bda7dd7579e088806ac"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shacript/killnode/releases/download/v0.1.0/killnode-x86_64-apple-darwin.tar.xz"
-      sha256 "a9ca4b492c0fcb0249a5905a5c36fcd8a2d0c5682c3762e20a1c5d948c59d26e"
+      url "https://github.com/shacript/killnode/releases/download/v0.1.1/killnode-x86_64-apple-darwin.tar.xz"
+      sha256 "c42cbf51049563e8b30059531be97f230836b9dc3631fd146d3760a4fef02017"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/shacript/killnode/releases/download/v0.1.0/killnode-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "40b35c3c207e611c50c17d2459936ba52e886381272538bbe7e75c9b3f93119f"
+      url "https://github.com/shacript/killnode/releases/download/v0.1.1/killnode-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "6db0838fa7ab81d504eeff8a5e88bbb492b61c6007d0f38985e623cb1496ca9e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shacript/killnode/releases/download/v0.1.0/killnode-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "5541d767a377a24e4a973529ba554622e712ac6b04a7a1eb13c91d2964e892cb"
+      url "https://github.com/shacript/killnode/releases/download/v0.1.1/killnode-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "9a2f9a96174d1b738ead09d4664332b59a10820b6cc502436dfc0a0d089f0034"
     end
   end
   license "MIT"
